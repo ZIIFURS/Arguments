@@ -1,0 +1,12 @@
+import "base.proto";
+import "facttypes_base.proto";
+
+message Out: NFactType.TFact
+{
+	required NFactType.TFio Surname = 1;
+}
+
+message Sight: NFactType.TFact
+{
+	optional string Place = 1;
+}

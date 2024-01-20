@@ -1,0 +1,24 @@
+encoding "utf8";
+
+TTextMinerConfig {
+	Dictionary = "dic.gzt";
+	PrettyOutput = "Persons.html";
+
+	Input = {
+		File = "input.txt";
+	}
+
+	Output = {
+		File = "output.txt";
+		Format = text;
+	}
+
+Articles = [
+		{ Name = "output" }
+	]
+
+Facts = [
+		{ Name = "Out" }
+		{ Name = "Sight" }
+	]
+}
